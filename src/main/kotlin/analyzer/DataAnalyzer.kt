@@ -1,4 +1,4 @@
-package firststep
+package analyzer
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JSON
