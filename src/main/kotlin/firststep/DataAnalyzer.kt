@@ -19,7 +19,7 @@ fun main() {
 }
 
 const val PEOPLE_FILE = "data/people.txt"   // The output file
-private const val PEOPLE_COUNT = 1000       // Number of entries to be generated
+private const val PEOPLE_COUNT = 100       // Number of entries to be generated
 
 fun getFirstNames(): List<String> {
     // useLines makes sure the file is closed, even if there are exceptions
