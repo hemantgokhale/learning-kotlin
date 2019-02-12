@@ -8,6 +8,7 @@ To build the project run the following command. If you don't have gradle install
 this command will first install gradle and then build the project. The first build will be slow.
 Subsequent builds will be get faster.:
 ```
+cd learning-kotlin
 ./gradlew build
 ```
 
