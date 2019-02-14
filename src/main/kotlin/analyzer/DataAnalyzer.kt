@@ -14,8 +14,13 @@ import kotlin.random.Random
 data class Person (val firstName: String, val lastName: String, val age: Int)
 
 fun main() {
-    writePeople(getFirstNames(), getLastNames())
-    analyze()
+    try {
+        writePeople(getFirstNames(), getLastNames())
+        analyze()
+    } catch (e: Throwable) {
+        println("*** There was an error ***")
+        e.printStackTrace()
+    }
 }
 
 const val PEOPLE_FILE = "data/people.txt"   // The output file
