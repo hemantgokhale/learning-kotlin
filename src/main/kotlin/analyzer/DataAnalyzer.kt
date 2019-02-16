@@ -6,6 +6,25 @@ import java.io.File
 import kotlin.random.Random
 
 /**
+ * This is a simple program I wrote to get to know Kotlin. Here is what it does:
+ *
+ * Part 1
+ * Read a text file to get a list of first names. Read another text file to get a list of last names.
+ * Define a Person as a struct with the following fields: a first name, a last name, and an age.
+ * Create a person by randomly selecting a first name from the list of first names, a last name from the list of last
+ * names, and an age as a random integer between 1 through 100.
+ * Write PeopleCount number of such person objects in JSON format to a text file.
+ *
+ * Part 2
+ * Read the list of people and analyze the data to print the following stats:
+ * 1. Number of people in the dataset
+ * 2. The count of distinct first names
+ * 3. The oldest three people
+ * 4. Minimum and maximum ages in the dataset
+ * 5. The three most popular last names with their frequencies
+*/
+
+/**
  * The keyword "data" adds compiler generated implementations of equals(), hashCode(), toString(), componentN(), and copy()
  * The @Serializable annotation makes it possible to serialize/deserialize to/from JSON, CBOR, and Protobuf
  * https://github.com/Kotlin/kotlinx.serialization

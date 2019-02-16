@@ -1,3 +1,8 @@
+For a description what this code does, see the comment at the top of the file DataAnalyzer.kt
+
+Here are the instructions for getting, compiling, and running this program. 
+They assume that a recent version of java is installed and on the path on your machine.
+
 Clone the project:
 ```
 git clone https://github.com/hemantgokhale/learning-kotlin.git
