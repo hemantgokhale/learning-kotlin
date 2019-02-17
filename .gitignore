@@ -1,1 +1,5 @@
 data/people.txt
+.gradle/
+.idea/
+build/
+out/
