@@ -1,4 +1,4 @@
-For a description what this code does, see the comment at the top of the file DataAnalyzer.kt
+For a description what this code does, see the comment at the top of the file src/main/kotlin/analyze/DataAnalyzer.kt
 
 Here are the instructions for getting, compiling, and running this program. 
 They assume that a recent version of java is installed and on the path on your machine.
@@ -17,7 +17,7 @@ cd learning-kotlin
 ./gradlew build
 ```
 
-Assuming you have java in the path, run the code with this command:
+Run the code with this command:
 ```
 java -jar build/libs/learning-kotlin-1.0-SNAPSHOT.jar
 ```
