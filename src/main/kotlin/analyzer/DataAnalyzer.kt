@@ -94,8 +94,8 @@ private fun analyze() {
     println("\nThere are $distinctFirstNameCount distinct first names.")
 
     // Min and max ages
-    val minAge = people.minBy { it.age }?.age
-    val maxAge = people.maxBy { it.age }?.age
+    val minAge = people.minBy { it.age }?.age ?: 0
+    val maxAge = people.maxBy { it.age }?.age ?: 0
     println("Minimum age is $minAge.")
     println("Maximum age is $maxAge.")
 
